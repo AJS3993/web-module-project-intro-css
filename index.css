@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid red;
     font-family: 'Roboto Mono', monospace;
   }
 
@@ -14,7 +13,7 @@
     font-family: 'Chelsea Market', cursive;
   }
 
-  body{
+  #notFooter{
     margin: 4%;
   }
 
@@ -27,11 +26,22 @@
  
   nav a {
     border: 1px solid lightgray;
-    padding: 20px;
+    padding: 15px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
+    margin: 3%;
+   
   }
+
+  .title{
+    display: flex;
+  }
+
+.titleTextBox{
+  margin: 0 7%;
+  text-align: center;
+}
 
   .planYourVisit{
     background: #FF764E
@@ -50,15 +60,46 @@
   border-radius: 50%;
 }
 
-.mainText{
+.mainTextBox{
+  margin-top: 5%;
   background: #DDB9A3;
+  padding: 2% 5%;
+}
+
+.mainText{
   color: white;
 }
 
 #campfireImage{
-  width:15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #camperImage{
-  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.centerBox{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.centerBoxImage{
+  margin:0 20%;
+}
+
+.centerBoxText{
+ width: 30%;
+margin:0 auto;
+text-align: center;
+}
+
+footer{
+  background: #F9E7DC;
+  width: 100%
 }
