@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid red;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  h1{
+    font-family: 'Chelsea Market', cursive;
+  }
+
+  body{
+    margin: 4%;
+  }
+
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  nav a {
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .planYourVisit{
+    background: #FF764E
+  }
+
+  .learnAboutThePark{
+    background: #5ED3EB
+  }
+
+  .getInvolved{
+    background: #FFCD69
+  }
+
+#headerImage{
+  width: 20%;
+  border-radius: 50%;
+}
+
+.mainText{
+  background: #DDB9A3;
+  color: white;
+}
+
+#campfireImage{
+  width:15%;
+}
+
+#camperImage{
+  width: 15%;
+}
